@@ -1,0 +1,9 @@
+*.pyc
+unittests/*.d
+unittests/*.dummy.c
+unittests/*.log
+unittests/*.o
+unittests/*.oo
+unittests/*.sqlite
+unittests/debug.txt
+*.o

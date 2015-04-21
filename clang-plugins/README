@@ -11,8 +11,8 @@ sqlite3-devel
 Build Howto
 ===========
 
-1. Change LLVM_SRC_DIR, CLANG_SRC_DIR, LLVM_BUILD_DIR and CLANG_BUILD_DIR to
-   your local path to LLVM source/build directories.
+1. Change LLVM_PREFIX in CMakeLists.txt to the install prefix directory you
+   specified when configuring LLVM. [default=/usr/local]
 
 2. Execute:
     [xx@xx clang-plugins]$ mkdir build
